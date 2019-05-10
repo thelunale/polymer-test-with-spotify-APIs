@@ -1,0 +1,13 @@
+    <link rel="import"  href="https://polygit.org/polymer+^1.9.1/webcomponentsjs+^0.7.0/components/polymer/polymer.html">
+
+    <script>
+      // registra un nuevo elemento llamado proto-element
+      Polymer({
+        is: "proto-element",
+        
+        // añade un callback al prototipo del elemento 
+        ready: function() {
+          this.textContent = "Hello world"
+        }
+      });
+    </script>
